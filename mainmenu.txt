@@ -1,0 +1,20 @@
+20
+Load image
+save image
+horizontal flip
+vertical flip
+translate image
+change brightness
+negative image
+scale image 
+rotate_clockwise
+binary image
+rotate anti
+median filter
+image-crop
+mean-filter
+arbitrary rotate
+change size 
+contrast stretch
+derivative
+Open-Image
