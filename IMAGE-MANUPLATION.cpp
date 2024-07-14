@@ -13,27 +13,27 @@ CAN PERFORM OPTIONS GIVEN IN THE MENU FILE
 #include<stdlib.h> // library used for opening loaded file in the pgm viewer .
 using namespace std;// to avoid using std:: for every input or ouput.
 // PROTOTYPE OF ALL FUNCTION ARE DEFINED BELOW: 
-
 struct Image {
-    int loadImage(char ImageName[]);
-    int saveImage(char ImageName[]);
-    void horizontalFlipImage();
-    void verticalFlipImage();
-    void translateImage(int dx, int dy);
-    void brightness_difference(double fact);
-    void negativeImage();
-    void scaleImage(double scaleExtent);
-    void rotate_clockwise();
-    void Image_binary(Image& image);
-    void rotate_Anticlockwise();
-    void median_filter();
-    void image_crop(Image& image);
-    void meanFilter();
-    void rotateArbitraryAngle(Image& image, double angleDegrees);
-    void Change_Image(Image& image);
-    void linearcontraststretching(int maxGrey);
-    void Apply_Derivatives(Image& image);
-    void BONUS_IMAGE_OPENER(const char* imageName);
+    //ALL FEATURES PRESENT IN THE CODE ARE AS FOLLOWS:
+    // int loadImage(char ImageName[]);
+    // int saveImage(char ImageName[]);
+    // void horizontalFlipImage();
+    // void verticalFlipImage();
+    // void translateImage(int dx, int dy);
+    // void brightness_difference(double fact);
+    // void negativeImage();
+    // void scaleImage(double scaleExtent);
+    // void rotate_clockwise();
+    // void Image_binary(Image& image);
+    // void rotate_Anticlockwise();
+    // void median_filter();
+    // void image_crop(Image& image);
+    // void meanFilter();
+    // void rotateArbitraryAngle(Image& image, double angleDegrees);
+    // void Change_Image(Image& image);
+    // void linearcontraststretching(int maxGrey);
+    // void Apply_Derivatives(Image& image);
+    // void BONUS_IMAGE_OPENER(const char* imageName);
 
     // basics to store image values and pgm file protocols 
     char ImageFileName[100];
